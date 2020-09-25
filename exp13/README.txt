@@ -1,0 +1,1 @@
+Описание проекта (чтобы быстро въехать какие обозначения за что отвечают): https://drive.google.com/file/d/1a2uM3GuINBp9CpWcMFP6B6ZEZZt5kBLl/view?usp=sharing
