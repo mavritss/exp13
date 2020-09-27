@@ -9,18 +9,17 @@ namespace exp13
 
         static void Main(string[] args)
         {
-            string userInput = Console.ReadLine();
-            double result = SquareCount (userInput);
+            Console.WriteLine("Введите длину верёвки");
+            double length = double.Parse(Console.ReadLine());
+            Console.WriteLine("Введите длину стороны забора");
+            double side = double.Parse(Console.ReadLine());
+
+            double result = SquareCount (side, length);
             Console.WriteLine("Площадь съеденного поля = " + result);
         }
         
-        public static double SquareCount (string userInput)
+        public static double SquareCount (double side, double length)
         {
-            var parts = userInput.Split(' ');
-            double side = Convert.ToDouble(parts[0]);
-            double length = Convert.ToDouble(parts[1]);
-            // lenght (веревки) = r круга
-
             double halfSide = side / 2;
             double squareOfSquare = side * side;
             double squareOfCircle = Pi * length * length;
